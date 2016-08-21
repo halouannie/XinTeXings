@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android5.0新特性</string>
+    <string-array name="item_array">
+        <item>主题样式</item>
+        <item>阴影和剪裁</item>
+        <item>图片和颜色</item>
+        <item>全新的动画</item>
+        <item>RecyclerView</item>
+        <item>TabLayout_1</item>
+        <item>TabLayout_2</item>
+        <item>新增的widget</item>
+        <item>交通适配</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

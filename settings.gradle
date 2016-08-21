@@ -1,0 +1,1 @@
+include ':Android5.0&6.0', ':demo_http_ion', ':demo_http_volley', ':demo_http_retrofit', ':demo_http_retrofit', ':demo_imageloader', ':demo_slidingmenu', ':demo_swipedelete', ':demo_quickindex', ':demo_parallaxlistview', ':demo_recyclerview', 'Android5.0', 'DemoRetrofit', 'parallaxeffect87', ':android5.0&6.0demo', ':app', ':AdapterLibrary'

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_margin="12dp"
+                android:background="#fff"
+                android:text="elevation: 12dp"
+                android:elevation="12dp"
+                />
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:layout_margin="12dp"
+                android:background="#fff"
+                android:text="elevation: 21dp"
+                android:elevation="21dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="21dp"
+            android:layout_marginTop="21dp"
+            android:background="#2b2b2b"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="elevation: 21dp"
+                android:elevation="21dp"
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="47dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#fff"
+                android:text="elevation: 6dp"
+                android:elevation="6dp"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="21dp"
+            android:layout_marginTop="21dp"
+            android:background="#2b2b2b"/>
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="21dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#fff"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#fff"
+                android:text="elevation: 21dp"
+                android:elevation="21dp"
+                />
+            <TextView
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="47dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#fff"
+                android:text="elevation: 12dp + translation: 12dp"
+                android:elevation="12dp"
+                android:translationZ="12dp"
+                />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="21dp"
+            android:layout_marginTop="21dp"
+            android:background="#2b2b2b"/>
+
+
+        <!--指定背景为圆形图片轮廓-->
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#fff"
+           android:orientation="vertical">
+           <ImageView
+               android:id="@+id/imageview1"
+               android:layout_marginTop="26dp"
+               android:layout_gravity="center"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:background="@mipmap/circle"
+               android:layout_margin="27dp"
+               android:elevation="21dp"/>
+           <ImageView
+               android:id="@+id/imageview2"
+               android:layout_marginTop="21dp"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@mipmap/circle"
+               android:background="@drawable/circle"
+               android:elevation="66dp"/>
+           <TextView
+               android:id="@+id/imageview3"
+               android:layout_marginTop="32dp"
+               android:layout_gravity="center"
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:background="@drawable/circle"
+               android:text="elevation: 21dp"
+               android:elevation="21dp"
+               />
+
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:layout_marginBottom="21dp"
+               android:layout_marginTop="21dp"
+               android:background="#2b2b2b"/>
+
+           <!--通过剪裁设计圆角头像-->
+           <ImageView
+               android:id="@+id/imageview4"
+               android:layout_marginTop="21dp"
+               android:layout_gravity="center"
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:background="@mipmap/p2"
+               android:elevation="21dp"/>
+       </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

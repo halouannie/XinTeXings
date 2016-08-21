@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.annie.demo_quickindex.MainActivity">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    <com.annie.demo_quickindex.QuickIndexBar
+        android:id="@+id/quickindex"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="#cf00"/>
+    <TextView
+
+        android:id="@+id/showWord"
+        android:text="A"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_bg"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="#fff"/>
+</RelativeLayout>

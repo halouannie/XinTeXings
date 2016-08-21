@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <!--自定义主题样式-->
+    <style name="BLACK">
+        <item name="android:colorPrimaryDark">@color/navigation_grey</item>
+        <item name="android:colorPrimary">@color/control_activated_grey</item>
+        <item name="android:textColorPrimary">@color/fg_grey</item>
+        <item name="android:windowBackground">@color/bg_grey</item>
+        <item name="android:navigationBarColor">@color/action_blue_grey</item>
+        <item name="android:colorControlHighlight">@color/window_bg_blue_grey</item>
+    </style>
+
+</resources>

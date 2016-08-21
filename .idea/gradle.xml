@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="E:\androidStudio2.1\android-studio-ide-143.2821654-windows\android-studio\gradle\gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AdapterLibrary" />
+            <option value="$PROJECT_DIR$/Android5.0" />
+            <option value="$PROJECT_DIR$/Android5.0&amp;6.0" />
+            <option value="$PROJECT_DIR$/DemoRetrofit" />
+            <option value="$PROJECT_DIR$/android5.0&amp;6.0demo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demo_http_ion" />
+            <option value="$PROJECT_DIR$/demo_http_retrofit" />
+            <option value="$PROJECT_DIR$/demo_http_volley" />
+            <option value="$PROJECT_DIR$/demo_imageloader" />
+            <option value="$PROJECT_DIR$/demo_parallaxlistview" />
+            <option value="$PROJECT_DIR$/demo_quickindex" />
+            <option value="$PROJECT_DIR$/demo_recyclerview" />
+            <option value="$PROJECT_DIR$/demo_slidingmenu" />
+            <option value="$PROJECT_DIR$/demo_swipedelete" />
+            <option value="$PROJECT_DIR$/parallaxeffect87" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AdapterLibrary" />
+            <option value="$PROJECT_DIR$/Android5.0" />
+            <option value="$PROJECT_DIR$/Android5.0&amp;6.0" />
+            <option value="$PROJECT_DIR$/DemoRetrofit" />
+            <option value="$PROJECT_DIR$/android5.0&amp;6.0demo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demo_http_ion" />
+            <option value="$PROJECT_DIR$/demo_http_retrofit" />
+            <option value="$PROJECT_DIR$/demo_http_volley" />
+            <option value="$PROJECT_DIR$/demo_imageloader" />
+            <option value="$PROJECT_DIR$/demo_parallaxlistview" />
+            <option value="$PROJECT_DIR$/demo_quickindex" />
+            <option value="$PROJECT_DIR$/demo_recyclerview" />
+            <option value="$PROJECT_DIR$/demo_slidingmenu" />
+            <option value="$PROJECT_DIR$/demo_swipedelete" />
+            <option value="$PROJECT_DIR$/parallaxeffect87" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

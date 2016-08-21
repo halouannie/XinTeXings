@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_margin="28dp"
+            android:id="@+id/button1"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_default"
+            style="@android:style/Widget.Material.Button"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            style="@android:style/Widget.Material.Button"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            style="@android:style/Widget.Material.Button"/>
+
+        <!--通过代码自定义水波纹动画-->
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="#620000ff"/>
+
+
+    </LinearLayout>
+</ScrollView>

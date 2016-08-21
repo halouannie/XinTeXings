@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.itheima87.android5060demo.MainActivity">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:background="@mipmap/dog"
+            android:elevation="40dp"
+            android:gravity="center"
+            android:text="Hello World!" />
+
+        <!--Palette部分-->
+        <View
+            android:layout_width="match_parent"
+            android:background="#2b2b2b"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/runtu"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/vibrant"
+            android:layout_marginTop="10dp"
+            android:text="vibrant color"
+            android:gravity="center"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/vibrantLight"
+            android:layout_marginTop="10dp"
+            android:text="vibrantLight"
+            android:gravity="center"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/vibrantDark"
+            android:layout_marginTop="10dp"
+            android:text="vibrantDark"
+            android:gravity="center"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/muted"
+            android:layout_marginTop="10dp"
+            android:text="muted color"
+            android:gravity="center"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/mutedLight"
+            android:layout_marginTop="10dp"
+            android:text="mutedLight"
+            android:gravity="center"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/mutedDark"
+            android:layout_marginTop="10dp"
+            android:text="mutedDark"
+            android:gravity="center"
+            android:layout_height="20dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#2b2b2b"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="1dp"/>
+
+        <!--动画部分-->
+
+        <Button
+            android:id="@+id/btn_circle"
+            android:layout_width="200dp"
+            android:background="@drawable/my_bg"
+            style="@android:style/Widget.Material.Button"
+            android:layout_marginBottom="30dp"
+            android:layout_height="150dp" />
+
+        <Button
+            android:id="@+id/btn_anim"
+            android:layout_width="200dp"
+            android:stateListAnimator="@drawable/statelist_anim"
+            style="@android:style/Widget.Material.Button"
+            android:layout_marginBottom="100dp"
+            android:layout_height="150dp" />
+
+        <Button
+            android:id="@+id/btn_frame"
+            android:layout_width="40dp"
+            android:background="@drawable/statelist_frame"
+            style="@android:style/Widget.Material.Button"
+            android:layout_marginBottom="20dp"
+            android:layout_height="40dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#2b2b2b"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="1dp"/>
+        <!--CardView的部分-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="15dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="?android:attr/colorPrimary"
+            >
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#0ca"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:background="#ca0"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterLibrary/AdapterLibrary.iml" filepath="$PROJECT_DIR$/AdapterLibrary/AdapterLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android5.0.iml" filepath="$PROJECT_DIR$/Android5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android5.0&amp;6.0/Android5.0&amp;6.0.iml" filepath="$PROJECT_DIR$/Android5.0&amp;6.0/Android5.0&amp;6.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android5.0/Android5.0-Android5.0.iml" filepath="$PROJECT_DIR$/Android5.0/Android5.0-Android5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoRetrofit/DemoRetrofit.iml" filepath="$PROJECT_DIR$/DemoRetrofit/DemoRetrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android5.0&amp;6.0demo/android5.0&amp;6.0demo.iml" filepath="$PROJECT_DIR$/android5.0&amp;6.0demo/android5.0&amp;6.0demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_http_ion/demo_http_ion.iml" filepath="$PROJECT_DIR$/demo_http_ion/demo_http_ion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_http_retrofit/demo_http_retrofit.iml" filepath="$PROJECT_DIR$/demo_http_retrofit/demo_http_retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_http_volley/demo_http_volley.iml" filepath="$PROJECT_DIR$/demo_http_volley/demo_http_volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_imageloader/demo_imageloader.iml" filepath="$PROJECT_DIR$/demo_imageloader/demo_imageloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_parallaxlistview/demo_parallaxlistview.iml" filepath="$PROJECT_DIR$/demo_parallaxlistview/demo_parallaxlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_quickindex/demo_quickindex.iml" filepath="$PROJECT_DIR$/demo_quickindex/demo_quickindex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_recyclerview/demo_recyclerview.iml" filepath="$PROJECT_DIR$/demo_recyclerview/demo_recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_slidingmenu/demo_slidingmenu.iml" filepath="$PROJECT_DIR$/demo_slidingmenu/demo_slidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_swipedelete/demo_swipedelete.iml" filepath="$PROJECT_DIR$/demo_swipedelete/demo_swipedelete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parallaxeffect87/parallaxeffect87.iml" filepath="$PROJECT_DIR$/parallaxeffect87/parallaxeffect87.iml" />
+    </modules>
+  </component>
+</project>
